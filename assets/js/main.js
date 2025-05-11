@@ -1,7 +1,7 @@
 /*
-	Eventually by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+    Eventually by Pixelarity
+    pixelarity.com | hello@pixelarity.com
+    License: pixelarity.com/license
 */
 
 (function () {
@@ -238,6 +238,7 @@ trigger.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
 	modal.style.display = "none";
 });
+
 // Optionally close modal if clicking outside of modal content
 window.addEventListener("click", (event) => {
 	if (event.target === modal) {
